@@ -1,3 +1,5 @@
+
+
 import requests
 import psycopg2
 import pandas as pd
@@ -11,7 +13,7 @@ from urllib.parse import urlparse, parse_qsl, urlencode, urlunparse
 import random
 
 
-#4.30 minutes
+
 
 
 # Configuration - CONSERVATIVE to avoid IP ban
