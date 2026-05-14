@@ -3,7 +3,6 @@
 import requests
 import psycopg2
 import pandas as pd
-import csv
 import time
 import os
 import sys

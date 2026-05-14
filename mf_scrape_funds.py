@@ -1,15 +1,9 @@
 import requests
 import psycopg2
 import pandas as pd
-import csv
 import time
-import os
 from multiprocessing import Pool, Queue, Manager
-from functools import partial
-from pathlib import Path
-from datetime import datetime
 import threading
-import sys
 
 # Configuration
 BASE_URL = "https://mfdata.in/api/v1/schemes"

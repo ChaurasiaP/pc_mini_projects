@@ -1,3 +1,8 @@
+import pandas as pd
+
+from data_scrape_multiprocessing import get_db_connection
+
+
 def save_to_csv(all_funds, csv_file=CSV_FILE):
     """Takes a list of funds and saves to CSV. Can be called independently."""
     if not all_funds:
